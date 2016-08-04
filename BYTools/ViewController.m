@@ -21,6 +21,9 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
+    // view
+    
     [super viewDidLoad];
     
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, appWidth, appHeight) style:UITableViewStyleGrouped];
