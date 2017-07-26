@@ -27,9 +27,9 @@
 <key>bundle-identifier</key> 
 <string>com.njhhsoft.hbt.LogisticsManager</string> 
 <key>bundle-version</key> 
-<string>1.0</string> 
+<string>1.0.2</string> 
 <key>subtitle</key> 
-<string>1</string> 
+<string>102</string> 
 <key>title</key> 
 <string>生活服务</string> 
 <key>kind</key> 
