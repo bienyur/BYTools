@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "testViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,17 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    
+    testViewController *test = [[testViewController alloc] init];
+    
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    self.window.backgroundColor = [UIColor lightGrayColor];
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:test];
+//    nav.navigationItem.title = @"BYTools";
+    nav.title = @"test";
+    nav.navigationBar.tintColor = [UIColor blackColor];
+    self.window.rootViewController = nav;
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

@@ -1,33 +1,33 @@
 //
-//  ViewController.m
+//  testViewController.m
 //  BYTools
 //
-//  Created by 毕恩宇 on 16/7/29.
-//  Copyright © 2016年 bieny. All rights reserved.
+//  Created by 毕恩宇 on 2017/8/8.
+//  Copyright © 2017年 bieny. All rights reserved.
 //
 
-#import "ViewController.h"
 #import "testViewController.h"
-
+#import "tempViewController.h"
 #define appWidth  [UIScreen mainScreen].bounds.size.width
 #define appHeight  [UIScreen mainScreen].bounds.size.height
 #define appFrame    [UIScreen mainScreen].bounds
 
-@interface ViewController () <UITableViewDelegate,UITableViewDataSource>
+@interface testViewController () <UITableViewDelegate,UITableViewDataSource>
 @property (nonatomic,strong) UITableView *tableView;
 @end
 
-testViewController *testVC;
 
-@implementation ViewController
+
+
+@implementation testViewController
 
 - (void)viewDidLoad {
     
-    // view
-    testVC = [[testViewController alloc] init];
     [super viewDidLoad];
     
-    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, appWidth, appHeight) style:UITableViewStyleGrouped];
+    
+    
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, appWidth, appHeight) style:UITableViewStyleGrouped];
     _tableView.delegate = self;
     _tableView.dataSource = self;
     
@@ -53,20 +53,20 @@ testViewController *testVC;
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    if(indexPath.row == 1){
-        NSLog(@"%ld",indexPath.row);
-        [self.navigationController pushViewController:testVC animated:YES];
-    }
+    tempViewController *tempVC = [[tempViewController alloc] init];
+    [self.navigationController pushViewController:tempVC animated:YES];
     
-
- 
+    
+    
 }
+/*
+#pragma mark - Navigation
 
-
-
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+// In a storyboard-based application, you will often want to do a little preparation before navigation
+- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
+    // Get the new view controller using [segue destinationViewController].
+    // Pass the selected object to the new view controller.
 }
+*/
 
 @end
