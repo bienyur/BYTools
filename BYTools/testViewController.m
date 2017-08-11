@@ -27,7 +27,7 @@
     
     
     
-    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, appWidth, appHeight) style:UITableViewStyleGrouped];
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, appWidth, appHeight) style:UITableViewStylePlain];
     _tableView.delegate = self;
     _tableView.dataSource = self;
     
@@ -53,11 +53,10 @@
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    tempViewController *tempVC = [[tempViewController alloc] init];
-    [self.navigationController pushViewController:tempVC animated:YES];
-    
-    
-    
+    if (indexPath.row == 0) {
+        tempViewController *tempVC = [[tempViewController alloc] init];
+        [self.navigationController pushViewController:tempVC animated:YES];
+    }
 }
 /*
 #pragma mark - Navigation
