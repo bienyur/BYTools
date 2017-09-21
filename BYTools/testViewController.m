@@ -55,7 +55,9 @@
 {
     if (indexPath.row == 0) {
         tempViewController *tempVC = [[tempViewController alloc] init];
+        tempVC.navigationController.navigationBarHidden = YES;
         [self.navigationController pushViewController:tempVC animated:YES];
+        
     }
 }
 /*

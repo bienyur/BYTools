@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"> 
+<dict> 
+<key>items</key> 
+<array> 
+<dict> 
+<key>assets</key> 
+<array> 
+<dict> 
+<key>kind</key> 
+<string>software-package</string> 
+<key>url</key> 
+<string>http://192.168.100.81/apps_file/upgrade_download/shanxi?format=ipa&amp;r=131298634</string> 
+</dict> 
+<dict> 
+<key>kind</key> 
+<string>display-image</string> 
+<key>needs-shine</key> 
+<false /> 
+<key>url</key> 
+<string>http://192.168.100.81/photos/none_client</string> 
+</dict> 
+</array> 
+<key>metadata</key> 
+<dict> 
+<key>bundle-identifier</key> 
+<string>com.chinamobile.shanxi.wechat</string> 
+<key>bundle-version</key> 
+<string>4.0.0.0058</string> 
+<key>subtitle</key> 
+<string>4000058</string> 
+<key>title</key> 
+<string>陕西移动MOA</string> 
+<key>kind</key> 
+<string>software</string> 
+</dict> 
+</dict> 
+</array> 
+</dict> 
+</plist>
