@@ -24,7 +24,7 @@
     
   
     
-    self.navigationController.navigationBar.hidden = YES;
+//    self.navigationController.navigationBar.hidden = YES;
     // Do any additional setup after loading the view.
 }
 
