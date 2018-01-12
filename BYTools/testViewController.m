@@ -42,6 +42,12 @@
     
     cell.textLabel.text = @"1";
     
+    
+    if(indexPath.row == 1){
+        
+        cell.textLabel.text = @"相机";
+    }
+    
     return cell;
 }
 
