@@ -25,15 +25,15 @@
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.jshbank.mobilekj</string>
+				<string>com.HHBank.MobileManagementTest</string>
 				<key>bundle-version</key>
-				<string>6.2.3.030894</string>
+				<string>6.2.5.021104</string>
 				<key>subtitle</key>
-				<string>623030894</string>
+				<string>625021104</string>
 				<key>title</key>
 				<string>iOS</string>
 				<key>kind</key>
-				<string>software</string>
+				<string>HHBank</string>
 			</dict>
 		</dict>
 	</array>
