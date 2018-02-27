@@ -64,6 +64,12 @@
         tempVC.navigationController.navigationBarHidden = YES;
         [self.navigationController pushViewController:tempVC animated:YES];
         
+    }else{
+        NSString *path1=[NSBundle mainBundle].bundlePath;
+        NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
+        NSString *docDir = [paths objectAtIndex:0];
+        NSString *path = [NSString stringWithFormat:@"file://%@/www/index.html",path1];
+        NSLog(@"%@",path);
     }
 }
 /*
