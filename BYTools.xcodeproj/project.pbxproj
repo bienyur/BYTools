@@ -21,7 +21,6 @@
 		3F5A01931D4B0AB8004B182D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F5A01911D4B0AB8004B182D /* LaunchScreen.storyboard */; };
 		3F5A019E1D4B0AB8004B182D /* BYToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A019D1D4B0AB8004B182D /* BYToolsTests.m */; };
 		3F5A01A91D4B0AB8004B182D /* BYToolsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A01A81D4B0AB8004B182D /* BYToolsUITests.m */; };
-		3F74494220442732002643F6 /* www in Resources */ = {isa = PBXBuildFile; fileRef = 3F74494120442731002643F6 /* www */; };
 		3F925B031F39AFC5002E2CF9 /* testViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F925B021F39AFC5002E2CF9 /* testViewController.m */; };
 		3F925B061F39BCD8002E2CF9 /* tempViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F925B051F39BCD8002E2CF9 /* tempViewController.m */; };
 /* End PBXBuildFile section */
@@ -67,7 +66,6 @@
 		3F5A01A41D4B0AB8004B182D /* BYToolsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BYToolsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5A01A81D4B0AB8004B182D /* BYToolsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BYToolsUITests.m; sourceTree = "<group>"; };
 		3F5A01AA1D4B0AB8004B182D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3F74494120442731002643F6 /* www */ = {isa = PBXFileReference; lastKnownFileType = folder; name = www; path = "../../../Library/Developer/CoreSimulator/Devices/EEEA61F6-5B4D-44A0-B76B-2B9B1BAACC26/data/Containers/Bundle/Application/370F0F19-6463-4823-8319-E7457273BE0B/MXClient.app/www"; sourceTree = "<group>"; };
 		3F925B011F39AFC5002E2CF9 /* testViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testViewController.h; sourceTree = "<group>"; };
 		3F925B021F39AFC5002E2CF9 /* testViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testViewController.m; sourceTree = "<group>"; };
 		3F925B041F39BCD8002E2CF9 /* tempViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tempViewController.h; sourceTree = "<group>"; };
@@ -135,7 +133,6 @@
 		3F5A01821D4B0AB8004B182D /* BYTools */ = {
 			isa = PBXGroup;
 			children = (
-				3F74494120442731002643F6 /* www */,
 				3F4DA1E41F6CF9A60041B16E /* Resouces */,
 				3F5A01B61D4B0BD8004B182D /* tools */,
 				3F5A01861D4B0AB8004B182D /* AppDelegate.h */,
@@ -302,7 +299,6 @@
 				3F4DA1F01F6CFA080041B16E /* shane-rounce-205187.jpg in Resources */,
 				3F5A01931D4B0AB8004B182D /* LaunchScreen.storyboard in Resources */,
 				3F5A01901D4B0AB8004B182D /* Assets.xcassets in Resources */,
-				3F74494220442732002643F6 /* www in Resources */,
 				3F5A018E1D4B0AB8004B182D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
