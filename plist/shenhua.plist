@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://202.113.127.150/clients_file/iOS.ipa</string>
+					<string>http://10.128.105.60/clients_file/iOS.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,19 +19,19 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>http://202.113.127.150/apple-touch-icon-144.png</string>
+					<string>http://10.128.105.60/apple-touch-icon-144.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
 			<dict>
 				<key>bundle-identifier</key>
-				<string>com.hebutcampu.im</string>
+				<string>com.shenhua.product</string>
 				<key>bundle-version</key>
-				<string>6.4.2.011403</string>
+				<string>1.0</string>
 				<key>subtitle</key>
-				<string>642011403</string>
+				<string>1</string>
 				<key>title</key>
-				<string>你好!工大</string>
+				<string>神华</string>
 				<key>kind</key>
 				<string>software</string>
 			</dict>
