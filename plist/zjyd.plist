@@ -11,7 +11,7 @@
 					<key>kind</key>
 					<string>software-package</string>
 					<key>url</key>
-					<string>http://218.205.68.136/clients_file/iOS.ipa</string>
+					<string>http://igotone.zj.chinamobile.com:1881/clients_file/iOS.ipa</string>
 				</dict>
 				<dict>
 					<key>kind</key>
@@ -19,7 +19,7 @@
 					<key>needs-shine</key>
 					<true/>
 					<key>url</key>
-					<string>http://218.205.68.136/apple-touch-icon-144.png</string>
+					<string>http://igotone.zj.chinamobile.com:1881/apple-touch-icon-144.png</string>
 				</dict>
 			</array>
 			<key>metadata</key>
