@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>assets</key>
+			<array>
+				<dict>
+					<key>kind</key>
+					<string>software-package</string>
+					<key>url</key>
+					<string>http://101.200.54.120/clients_file/iOS.ipa</string>
+				</dict>
+				<dict>
+					<key>kind</key>
+					<string>display-image</string>
+					<key>needs-shine</key>
+					<true/>
+					<key>url</key>
+					<string>http://101.200.54.120/apple-touch-icon-144.png</string>
+				</dict>
+			</array>
+			<key>metadata</key>
+			<dict>
+				<key>bundle-identifier</key>
+				<string>com.dehuinet.party</string>
+				<key>bundle-version</key>
+				<string>6.4.3.052217</string>
+				<key>subtitle</key>
+				<string>643052217</string>
+				<key>title</key>
+				<string>敏行</string>
+				<key>kind</key>
+				<string>software</string>
+			</dict>
+		</dict>
+	</array>
+</dict>
+</plist>

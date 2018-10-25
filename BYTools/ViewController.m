@@ -27,13 +27,16 @@ testViewController *testVC;
     testVC = [[testViewController alloc] init];
     [super viewDidLoad];
     
-    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, appWidth, appHeight) style:UITableViewStyleGrouped];
+    self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 20, appWidth, appHeight)];
     _tableView.delegate = self;
     _tableView.dataSource = self;
-    
     [self.view addSubview:_tableView];
 }
 
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    return 200;
+}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
@@ -41,6 +44,7 @@ testViewController *testVC;
     
     
     cell.textLabel.text = @"1";
+
     
     return cell;
 }
@@ -61,6 +65,7 @@ testViewController *testVC;
 
  
 }
+
 
 
 
