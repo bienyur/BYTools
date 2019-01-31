@@ -7,12 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F4DA1EB1F6CFA080041B16E /* brooke-lark-175184.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4DA1EA1F6CF9FD0041B16E /* brooke-lark-175184.jpg */; };
-		3F4DA1EC1F6CFA080041B16E /* massimo-mancini-113100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4DA1E51F6CF9F30041B16E /* massimo-mancini-113100.jpg */; };
-		3F4DA1ED1F6CFA080041B16E /* lauren_lester_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F4DA1E91F6CF9F90041B16E /* lauren_lester_2.png */; };
-		3F4DA1EE1F6CFA080041B16E /* monika-grabkowska-338868.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4DA1E81F6CF9F30041B16E /* monika-grabkowska-338868.jpg */; };
-		3F4DA1EF1F6CFA080041B16E /* muhammad-masood-238193.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4DA1E61F6CF9F30041B16E /* muhammad-masood-238193.jpg */; };
-		3F4DA1F01F6CFA080041B16E /* shane-rounce-205187.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 3F4DA1E71F6CF9F30041B16E /* shane-rounce-205187.jpg */; };
+		174593D921E486ED00102A7F /* massimo-mancini-113100.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174593D221E486ED00102A7F /* massimo-mancini-113100.jpg */; };
+		174593DA21E486ED00102A7F /* shane-rounce-205187.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174593D321E486ED00102A7F /* shane-rounce-205187.jpg */; };
+		174593DB21E486ED00102A7F /* monika-grabkowska-338868.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174593D421E486ED00102A7F /* monika-grabkowska-338868.jpg */; };
+		174593DC21E486ED00102A7F /* lauren_lester_2.png in Resources */ = {isa = PBXBuildFile; fileRef = 174593D521E486ED00102A7F /* lauren_lester_2.png */; };
+		174593DD21E486ED00102A7F /* brooke-lark-175184.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174593D621E486ED00102A7F /* brooke-lark-175184.jpg */; };
+		174593DE21E486ED00102A7F /* lauren-lester-205923.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174593D721E486ED00102A7F /* lauren-lester-205923.jpg */; };
+		174593DF21E486ED00102A7F /* muhammad-masood-238193.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 174593D821E486ED00102A7F /* muhammad-masood-238193.jpg */; };
+		174593E721E4873000102A7F /* MXIntroPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 174593E221E4873000102A7F /* MXIntroPageViewController.m */; };
+		174593E821E4873000102A7F /* EAIntroView.m in Sources */ = {isa = PBXBuildFile; fileRef = 174593E421E4873000102A7F /* EAIntroView.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		174593E921E4873000102A7F /* EAIntroPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 174593E521E4873000102A7F /* EAIntroPage.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		174593EF21E48E6000102A7F /* Reachability.m in Sources */ = {isa = PBXBuildFile; fileRef = 174593ED21E48E6000102A7F /* Reachability.m */; };
 		3F5A01851D4B0AB8004B182D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A01841D4B0AB8004B182D /* main.m */; };
 		3F5A01881D4B0AB8004B182D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A01871D4B0AB8004B182D /* AppDelegate.m */; };
 		3F5A018B1D4B0AB8004B182D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F5A018A1D4B0AB8004B182D /* ViewController.m */; };
@@ -43,14 +48,26 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		174593D221E486ED00102A7F /* massimo-mancini-113100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "massimo-mancini-113100.jpg"; sourceTree = "<group>"; };
+		174593D321E486ED00102A7F /* shane-rounce-205187.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shane-rounce-205187.jpg"; sourceTree = "<group>"; };
+		174593D421E486ED00102A7F /* monika-grabkowska-338868.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "monika-grabkowska-338868.jpg"; sourceTree = "<group>"; };
+		174593D521E486ED00102A7F /* lauren_lester_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lauren_lester_2.png; sourceTree = "<group>"; };
+		174593D621E486ED00102A7F /* brooke-lark-175184.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brooke-lark-175184.jpg"; sourceTree = "<group>"; };
+		174593D721E486ED00102A7F /* lauren-lester-205923.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lauren-lester-205923.jpg"; sourceTree = "<group>"; };
+		174593D821E486ED00102A7F /* muhammad-masood-238193.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "muhammad-masood-238193.jpg"; sourceTree = "<group>"; };
+		174593E121E4873000102A7F /* EAIntroView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroView.h; sourceTree = "<group>"; };
+		174593E221E4873000102A7F /* MXIntroPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MXIntroPageViewController.m; sourceTree = "<group>"; };
+		174593E321E4873000102A7F /* EAIntroPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EAIntroPage.h; sourceTree = "<group>"; };
+		174593E421E4873000102A7F /* EAIntroView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroView.m; sourceTree = "<group>"; };
+		174593E521E4873000102A7F /* EAIntroPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EAIntroPage.m; sourceTree = "<group>"; };
+		174593E621E4873000102A7F /* MXIntroPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXIntroPageViewController.h; sourceTree = "<group>"; };
+		174593EB21E48E3900102A7F /* MXConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXConst.h; sourceTree = "<group>"; };
+		174593ED21E48E6000102A7F /* Reachability.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Reachability.m; sourceTree = "<group>"; };
+		174593EE21E48E6000102A7F /* Reachability.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reachability.h; sourceTree = "<group>"; };
+		174593F021E48ECE00102A7F /* MXDefine.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXDefine.pch; sourceTree = "<group>"; };
+		174593F121E48ECE00102A7F /* MXDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MXDefine.h; sourceTree = "<group>"; };
 		3F1CD1511F6CEAD800A9BF89 /* config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = config.h; sourceTree = "<group>"; };
 		3F2DE0A72008C9370039E2EC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3F4DA1E51F6CF9F30041B16E /* massimo-mancini-113100.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "massimo-mancini-113100.jpg"; sourceTree = "<group>"; };
-		3F4DA1E61F6CF9F30041B16E /* muhammad-masood-238193.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "muhammad-masood-238193.jpg"; sourceTree = "<group>"; };
-		3F4DA1E71F6CF9F30041B16E /* shane-rounce-205187.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "shane-rounce-205187.jpg"; sourceTree = "<group>"; };
-		3F4DA1E81F6CF9F30041B16E /* monika-grabkowska-338868.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "monika-grabkowska-338868.jpg"; sourceTree = "<group>"; };
-		3F4DA1E91F6CF9F90041B16E /* lauren_lester_2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lauren_lester_2.png; sourceTree = "<group>"; };
-		3F4DA1EA1F6CF9FD0041B16E /* brooke-lark-175184.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "brooke-lark-175184.jpg"; sourceTree = "<group>"; };
 		3F5A01801D4B0AB8004B182D /* BYTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BYTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5A01841D4B0AB8004B182D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3F5A01861D4B0AB8004B182D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -97,17 +114,40 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3F4DA1E41F6CF9A60041B16E /* Resouces */ = {
+		174593D121E486ED00102A7F /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				3F4DA1EA1F6CF9FD0041B16E /* brooke-lark-175184.jpg */,
-				3F4DA1E51F6CF9F30041B16E /* massimo-mancini-113100.jpg */,
-				3F4DA1E91F6CF9F90041B16E /* lauren_lester_2.png */,
-				3F4DA1E81F6CF9F30041B16E /* monika-grabkowska-338868.jpg */,
-				3F4DA1E61F6CF9F30041B16E /* muhammad-masood-238193.jpg */,
-				3F4DA1E71F6CF9F30041B16E /* shane-rounce-205187.jpg */,
+				174593D221E486ED00102A7F /* massimo-mancini-113100.jpg */,
+				174593D321E486ED00102A7F /* shane-rounce-205187.jpg */,
+				174593D421E486ED00102A7F /* monika-grabkowska-338868.jpg */,
+				174593D521E486ED00102A7F /* lauren_lester_2.png */,
+				174593D621E486ED00102A7F /* brooke-lark-175184.jpg */,
+				174593D721E486ED00102A7F /* lauren-lester-205923.jpg */,
+				174593D821E486ED00102A7F /* muhammad-masood-238193.jpg */,
 			);
-			name = Resouces;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		174593E021E4873000102A7F /* EAIntroView */ = {
+			isa = PBXGroup;
+			children = (
+				174593E121E4873000102A7F /* EAIntroView.h */,
+				174593E221E4873000102A7F /* MXIntroPageViewController.m */,
+				174593E321E4873000102A7F /* EAIntroPage.h */,
+				174593E421E4873000102A7F /* EAIntroView.m */,
+				174593E521E4873000102A7F /* EAIntroPage.m */,
+				174593E621E4873000102A7F /* MXIntroPageViewController.h */,
+			);
+			path = EAIntroView;
+			sourceTree = "<group>";
+		};
+		174593EC21E48E6000102A7F /* Reachability */ = {
+			isa = PBXGroup;
+			children = (
+				174593ED21E48E6000102A7F /* Reachability.m */,
+				174593EE21E48E6000102A7F /* Reachability.h */,
+			);
+			path = Reachability;
 			sourceTree = "<group>";
 		};
 		3F5A01771D4B0AB8004B182D = {
@@ -133,10 +173,15 @@
 		3F5A01821D4B0AB8004B182D /* BYTools */ = {
 			isa = PBXGroup;
 			children = (
-				3F4DA1E41F6CF9A60041B16E /* Resouces */,
+				174593EC21E48E6000102A7F /* Reachability */,
+				174593E021E4873000102A7F /* EAIntroView */,
+				174593D121E486ED00102A7F /* Resources */,
 				3F5A01B61D4B0BD8004B182D /* tools */,
 				3F5A01861D4B0AB8004B182D /* AppDelegate.h */,
 				3F5A01871D4B0AB8004B182D /* AppDelegate.m */,
+				174593F121E48ECE00102A7F /* MXDefine.h */,
+				174593F021E48ECE00102A7F /* MXDefine.pch */,
+				174593EB21E48E3900102A7F /* MXConst.h */,
 				3F5A01891D4B0AB8004B182D /* ViewController.h */,
 				3F5A018A1D4B0AB8004B182D /* ViewController.m */,
 				3F5A018C1D4B0AB8004B182D /* Main.storyboard */,
@@ -291,13 +336,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3F4DA1EB1F6CFA080041B16E /* brooke-lark-175184.jpg in Resources */,
-				3F4DA1EC1F6CFA080041B16E /* massimo-mancini-113100.jpg in Resources */,
-				3F4DA1ED1F6CFA080041B16E /* lauren_lester_2.png in Resources */,
-				3F4DA1EE1F6CFA080041B16E /* monika-grabkowska-338868.jpg in Resources */,
-				3F4DA1EF1F6CFA080041B16E /* muhammad-masood-238193.jpg in Resources */,
-				3F4DA1F01F6CFA080041B16E /* shane-rounce-205187.jpg in Resources */,
+				174593DE21E486ED00102A7F /* lauren-lester-205923.jpg in Resources */,
+				174593DB21E486ED00102A7F /* monika-grabkowska-338868.jpg in Resources */,
+				174593DC21E486ED00102A7F /* lauren_lester_2.png in Resources */,
+				174593DA21E486ED00102A7F /* shane-rounce-205187.jpg in Resources */,
+				174593D921E486ED00102A7F /* massimo-mancini-113100.jpg in Resources */,
+				174593DF21E486ED00102A7F /* muhammad-masood-238193.jpg in Resources */,
 				3F5A01931D4B0AB8004B182D /* LaunchScreen.storyboard in Resources */,
+				174593DD21E486ED00102A7F /* brooke-lark-175184.jpg in Resources */,
 				3F5A01901D4B0AB8004B182D /* Assets.xcassets in Resources */,
 				3F5A018E1D4B0AB8004B182D /* Main.storyboard in Resources */,
 			);
@@ -325,10 +371,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F925B061F39BCD8002E2CF9 /* tempViewController.m in Sources */,
+				174593E721E4873000102A7F /* MXIntroPageViewController.m in Sources */,
 				3F5A018B1D4B0AB8004B182D /* ViewController.m in Sources */,
 				3F5A01881D4B0AB8004B182D /* AppDelegate.m in Sources */,
 				3F925B031F39AFC5002E2CF9 /* testViewController.m in Sources */,
 				3F5A01851D4B0AB8004B182D /* main.m in Sources */,
+				174593E821E4873000102A7F /* EAIntroView.m in Sources */,
+				174593EF21E48E6000102A7F /* Reachability.m in Sources */,
+				174593E921E4873000102A7F /* EAIntroPage.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -495,6 +545,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSDX5V2E8G;
+				GCC_PREFIX_HEADER = /Users/bieny/Desktop/BYTools/BYTools/MXDefine.pch;
 				INFOPLIST_FILE = BYTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bieny.test;
@@ -511,6 +562,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = WSDX5V2E8G;
+				GCC_PREFIX_HEADER = /Users/bieny/Desktop/BYTools/BYTools/MXDefine.pch;
 				INFOPLIST_FILE = BYTools/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bieny.test;

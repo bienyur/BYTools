@@ -1,0 +1,19 @@
+//
+//  MXDefine.pch
+//  MXClient
+//
+//  Created by Tianyanqiu on 2017/10/18.
+//  Copyright © 2017年 MXClient. All rights reserved.
+//
+
+#ifndef MXDefine_pch
+#define MXDefine_pch
+
+#ifdef __OBJC__
+#import "MXDefine.h"
+#endif
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#endif /* MXDefine_pch */

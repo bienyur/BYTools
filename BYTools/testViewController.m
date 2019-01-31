@@ -13,7 +13,11 @@
 #define appFrame    [UIScreen mainScreen].bounds
 
 @interface testViewController () <UITableViewDelegate,UITableViewDataSource>
+{
+    NSMutableArray *tabinfo;
+}
 @property (nonatomic,strong) UITableView *tableView;
+
 @end
 
 
@@ -26,34 +30,48 @@
     [super viewDidLoad];
     
     
+    tabinfo = [NSMutableArray arrayWithObjects:@"相机",@"2",@"3",@"4",@"5",@"6",@"7",@"8",nil];
     
+    self.navigationController.navigationBar.barTintColor = [UIColor colorWithRed:39/255.0 green:46/255.0 blue:51/255.0 alpha:1];
+    // 去透明效果
+    [self.navigationController.navigationBar setTranslucent:NO];
     self.tableView = [[UITableView alloc] initWithFrame:CGRectMake(0, 0, appWidth, appHeight) style:UITableViewStylePlain];
     _tableView.delegate = self;
     _tableView.dataSource = self;
-    
+    self.tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
     [self.view addSubview:_tableView];
 }
-
+/**
+ *  设置行高
+ */
+- (CGFloat)tableView:(nonnull UITableView *)tableView heightForRowAtIndexPath:(nonnull NSIndexPath *)indexPath{
+    return 90;
+}
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
-    UITableViewCell *cell = [[UITableViewCell alloc] init];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"formCell"];
     
-    
-    cell.textLabel.text = @"1";
-    
-    
-    if(indexPath.row == 1){
-        
-        cell.textLabel.text = @"相机";
+    if (cell == nil) {
+        cell = [[UITableViewCell alloc]initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:@"formCell"];
     }
     
+    if (indexPath.row%2==0) {
+        cell.backgroundColor = [UIColor colorWithRed:64/255.0 green:72/255.0 blue:80/255.0 alpha:1];
+    }else{
+        cell.backgroundColor = [UIColor colorWithRed:39/255.0 green:46/255.0 blue:51/255.0 alpha:1];
+    }
+    cell.textLabel.text = tabinfo[indexPath.row];
+    cell.textLabel.font = [UIFont systemFontOfSize:40];
+    cell.textLabel.textColor = [UIColor whiteColor];
+    cell.selectionStyle =  UITableViewCellSelectionStyleNone;
+    cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;
     return cell;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 5;
+    return tabinfo.count;
 }
 
 
@@ -72,6 +90,21 @@
         NSLog(@"%@",path);
     }
 }
+
+
+// 删除
+- (void)tableView:(UITableView *)tableView commitEditingStyle:(UITableViewCellEditingStyle)editingStyle forRowAtIndexPath:(NSIndexPath *)indexPath{
+    if (editingStyle == UITableViewCellEditingStyleDelete) {
+        if (tableView == self.tableView) {
+            [tabinfo removeObjectAtIndex:0];
+            [self.tableView beginUpdates];
+            [self.tableView deleteRowsAtIndexPaths:@[indexPath] withRowAnimation:UITableViewRowAnimationAutomatic];
+            [self.tableView endUpdates];
+        }
+    }
+    
+}
+
 /*
 #pragma mark - Navigation
 
