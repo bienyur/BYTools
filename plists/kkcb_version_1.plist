@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0"> 
+<dict> 
+<key>items</key> 
+<array> 
+<dict> 
+<key>assets</key> 
+<array> 
+<dict> 
+<key>kind</key> 
+<string>software-package</string> 
+<key>url</key> 
+<string>http://60.205.214.198/apps_file/upgrade_download/kkcb?format=ipa&amp;r=137247694</string> 
+</dict> 
+<dict> 
+<key>kind</key> 
+<string>display-image</string> 
+<key>needs-shine</key> 
+<false /> 
+<key>url</key> 
+<string>http://60.205.214.198/photos/2e8bf4e6341c42b3ed6e8f712c53adba</string> 
+</dict> 
+</array> 
+<key>metadata</key> 
+<dict> 
+<key>bundle-identifier</key> 
+<string>com.sobey.kkcbMinXing</string> 
+<key>bundle-version</key> 
+<string>1.1.4</string> 
+<key>subtitle</key> 
+<string>1</string> 
+<key>title</key> 
+<string>咔咔采编</string> 
+<key>kind</key> 
+<string>software</string> 
+</dict> 
+</dict> 
+</array> 
+</dict> 
+</plist>
